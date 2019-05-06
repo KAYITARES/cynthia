@@ -1,0 +1,281 @@
+body, html{
+    height:100%
+}
+/*the home  */
+.bg{
+    background-image:url(https://images.pexels.com/photos/1229861/pexels-photo-1229861.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    
+    background-size:cover;
+    height:100%
+    }
+
+nav {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 10px 0;
+    font-family: 'Amita';font-size: 22px;
+
+    
+}
+nav>ul {
+    text-align: right;
+   
+}
+nav>ul>li {
+    display: inline-block;
+}
+nav ul li a {
+    padding: 18px;
+    margin-right: 0;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    color: rgba(255, 255, 255, 0.733);   
+}
+nav>ul>li>a:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), insert 0 0 1px rgba(255, 255, 255, 0.6);
+    background:rgb(8, 235, 223);
+    color: rgba(0, 35, 122, 0.7);
+}
+#banner{
+  padding-bottom :1.5%;
+  background-color:rgba(231, 68, 204, 0.1); 
+}
+#banner>a:{
+ border : 2px solid white;
+width :20%;
+height:20%;
+margin-left: 40%;
+margin-top:10%;
+padding-bottom : 1%;
+text-align:center;
+color:white;
+}
+.name{
+    color:white;
+    text-align:center;
+    font-size:38px;
+  bottom:140px;
+  position:absolute;
+  width:100%;
+
+}
+span{
+    color:red
+}
+/* the about css style*/
+h1{
+    text-align:center;
+    padding:2%;
+    color:maroon;
+}
+#im{
+    height:300PX;
+    border-radius:50%;    
+}
+.flex{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    text-align:center;
+    margin-right:300px;
+    margin-left:500px;
+    font-size:24px;
+    padding:10px;
+}
+/*the portofolio css style */
+.orderedList{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    padding: 1px;
+    font-size:24px;
+    color:skyblue;
+}
+#portfolio{
+    
+    background-color:rgb(235, 188, 131);
+   
+}
+.explOfProjects{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    padding: 1px;
+    font-size:18px;
+}
+.learnMore{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    padding: 1px;
+    text-decoration-line:none;
+      
+}
+.learnMore a{
+    text-decoration-line:none;
+    border:1px solid #f05050;
+    padding:10px;
+    background-color:rgba(230, 132, 132, 0.1);
+}
+.learnMore a:hover{
+    background-color:#f05050;
+}
+/* the contact css style*/
+#contact{
+    background-color:rgb(167, 167, 167);
+    padding:10px;
+    
+}
+.form input {
+    background-color: #000;
+    width:30%;
+    margin-left:650px;
+    padding-bottom: 20px;
+    color:white;
+  }
+  textarea{
+    background-color: #000;
+    margin-left:650px;
+    padding:20px; 
+    width:28%; 
+    color:white;
+  }
+  button{
+    margin-left:1000px;
+    padding:20px;
+    border-radius:10px;
+    width:180px;
+  } 
+  h2{
+    text-align:center;
+    color:white;
+    font-size:30px;
+}
+.paragraphcontact{
+    text-align:center;
+    color:skyblue;
+}
+   
+.btn btn-info{
+    border-radius:5%;
+}
+#loading {
+    -webkit-animation: rotation 10s infinite linear;
+    border-radius:50%;
+}
+
+@-webkit-keyframes rotation {
+    from {
+            -webkit-transform: rotate(0deg);
+    }
+    to {
+            -webkit-transform: rotate(359deg);
+    }
+}
+.nme{
+    
+        
+    font-family: 'Amita';font-size: 44px; 
+        color: magenta;
+        -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+        -webkit-animation: 5s infinite linear; /* Safari 4.0 - 8.0 */
+        animation-name: example;
+        animation-duration: 5s;
+      }
+      
+      /* Safari 4.0 - 8.0 */
+      @-webkit-keyframes example {
+        0%   {color: cyan;}
+        25%  {color: rgb(213, 248, 12);}
+        50%  {color:magenta;}
+        100% {color: rgb(250, 4, 66);}
+      }
+      
+      /* Standard syntax */
+      @keyframes example {
+        0%   {color: cyan;}
+        25%  {color: rgb(213, 248, 12);}
+        50%  {color:magenta;}
+        100% {color: rgb(253, 7, 40);}
+      }
+#abt{
+    font-family: 'Charm';font-size: 32px;
+}
+#about{
+    background-color:rgb(216, 216, 216);
+}
+.t{
+    font-family: 'Andada';font-size: 32px;
+    color:rgb(38, 178, 243);
+}
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .text {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  a:hover .image {
+    opacity: 0.3;
+    -ms-transform: scale(1.1); 
+    -webkit-transform: scale(1.1); 
+     transform: scale(1.1);  
+    
+  }
+  a:hover .middle {
+    opacity: 1;
+  }
+  a:hover{
+    text-decoration:none
+   
+  }
+  .ooh{
+border-radius: 50%;
+padding:2%;
+
+  }
+  #portfolio{
+      background-color: beige;
+  }
+  h3{
+      text-decoration:none;
+  }
+  .po{
+    font-family: 'Adamina';font-size: 16px;
+  }
+  .cont{
+    font-family: 'Parisienne', cursive;font-size:18px; 
+  }
+  .conta{
+    font-family: 'Parisienne', cursive;font-size:22px;
+    font-family: 'Rancho', cursive;
+  }
+  .pu{
+      font-size:26px;
+  }
+  body {
+    background: #310404 url(https://i.ytimg.com/vi/wOvQAhzWCrM/maxresdefault.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Barlow', sans-serif;
+  }
