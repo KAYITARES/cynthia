@@ -12,7 +12,7 @@ body, html{
 nav {
     max-width: 960px;
     margin: 0 auto;
-    padding: 5px 0;
+    padding:5px 0;
     font-family: 'Amita';font-size: 22px;
 
     
@@ -255,7 +255,7 @@ margin:5%;
 
   }
   #portfolio{
-    /* background-color:blanchedalmond; */
+    background-color:blanchedalmond;
  
   }
   h3{
