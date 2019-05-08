@@ -281,4 +281,6 @@ padding:2%;
     background-size: cover;
     font-family: 'Barlow', sans-serif;
   }
- 
+ #skills{
+   height:100%;
+ }
