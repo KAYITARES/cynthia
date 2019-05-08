@@ -160,7 +160,7 @@ h1{
     border-radius:5%;
 }
 #loading {
-    -webkit-animation: rotation 10s infinite linear;
+    -webkit-animation: rotation 30s infinite linear;
     border-radius:50%;
 }
 
