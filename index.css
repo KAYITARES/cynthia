@@ -12,7 +12,7 @@ body, html{
 nav {
     max-width: 960px;
     margin: 0 auto;
-    padding: 10px 0;
+    padding: 5px 0;
     font-family: 'Amita';font-size: 22px;
 
     
@@ -34,8 +34,8 @@ nav ul li a {
 }
 nav>ul>li>a:hover {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), insert 0 0 1px rgba(255, 255, 255, 0.6);
-    background:rgb(8, 235, 223);
-    color: rgba(0, 35, 122, 0.7);
+    /* background:rgb(8, 235, 223); */
+    color:cyan;
 }
 #banner{
   padding-bottom :1.5%;
@@ -255,7 +255,7 @@ margin:5%;
 
   }
   #portfolio{
-    background-color:rgb(235, 188, 131);
+    /* background-color:blanchedalmond; */
  
   }
   h3{
@@ -291,3 +291,15 @@ margin:5%;
  .fa fa-github{
    font-size:3%;
  }
+ .zoom {
+  /* padding: 50px; */
+  
+  transition: transform .2s; /* Animation */
+  /* width: 200px;
+  height: 200px; */
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
