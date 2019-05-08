@@ -250,7 +250,7 @@ h1{
   }
   .ooh{
 border-radius: 50%;
-padding:2%;
+/* margin-bottom:12%; */
 
   }
   #portfolio{
@@ -283,6 +283,7 @@ padding:2%;
   }
  #skills{
    height:100%;
+  
  }
  .fa fa-github{
    font-size:3%;
