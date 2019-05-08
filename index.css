@@ -41,7 +41,7 @@ nav>ul>li>a:hover {
   padding-bottom :1.5%;
   background-color:rgba(231, 68, 204, 0.1); 
 }
-#banner>a:{
+#banner>a{
  border : 2px solid white;
 width :20%;
 height:20%;
@@ -250,6 +250,7 @@ h1{
   }
   .ooh{
 border-radius: 50%;
+margin:5%;
 /* margin-bottom:12%; */
 
   }
@@ -283,6 +284,8 @@ border-radius: 50%;
   }
  #skills{
    height:100%;
+   margin-bottom:5%;
+   margin:10%;
   
  }
  .fa fa-github{
