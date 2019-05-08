@@ -92,11 +92,8 @@ h1{
     font-size:24px;
     color:skyblue;
 }
-#portfolio{
-    
-    background-color:rgb(235, 188, 131);
-   
-}
+ 
+
 .explOfProjects{
     display:flex;
     flex-direction:row;
@@ -125,6 +122,8 @@ h1{
 #contact{
     background-color:rgb(167, 167, 167);
     padding:10px;
+    height:100%;
+    
     
 }
 .form input {
@@ -204,6 +203,8 @@ h1{
 }
 #about{
     background-color:rgb(216, 216, 216);
+    height:100%;
+   
 }
 .t{
     font-family: 'Andada';font-size: 32px;
@@ -253,7 +254,8 @@ padding:2%;
 
   }
   #portfolio{
-      background-color: beige;
+    background-color:rgb(235, 188, 131);
+ 
   }
   h3{
       text-decoration:none;
@@ -279,3 +281,4 @@ padding:2%;
     background-size: cover;
     font-family: 'Barlow', sans-serif;
   }
+ 
